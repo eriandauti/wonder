@@ -1,0 +1,86 @@
+
+body{
+    background-image: url(../images/bcg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.7;
+    overflow: hidden;
+    
+}
+#container{
+    flex-wrap: wrap;
+    position: relative;
+   
+}
+
+.header{
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+margin-top: 23em;
+color: #fff;
+}
+
+.header h1{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header h3{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 200px;
+    height: 50px;
+    margin: 0;
+    top: 32em;
+    left: 62em;
+}
+
+.nav{
+    margin-left: 10em;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.nav ul li:hover{
+    background-color: rgb(63, 59, 59);
+}
+.nav ul li{
+    padding: 10px 30px 10px 10px ;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn button{
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:transparent;
+    font-size: 15px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
